@@ -1,0 +1,33 @@
+# Ignore Python-specific files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.log
+
+# Ignore virtual environment directories
+venv/
+.env/
+*.env
+
+# Ignore output and temporary files
+*.csv
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore development and editor-specific files
+.vscode/
+.idea/
+*.pycharm
+*.vscode
+
+# Ignore build and distribution directories
+build/
+dist/
+__pycache__/
+
+# Ignore any local configuration files
+*.local

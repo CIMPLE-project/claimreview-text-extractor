@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "claimreview-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Thibault Ehrhart <thibault.ehrhart@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pandas = "^2.1.1"
+beautifulsoup4 = "^4.12.2"
+requests = "^2.31.0"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
